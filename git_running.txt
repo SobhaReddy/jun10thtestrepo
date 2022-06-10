@@ -1,0 +1,139 @@
+DevOps
+============
+1. SCM - Source Code Management - Git, GitHub, 
+SVN,TFS, CVS,VCS
+2. Continous Integration Tool - Jenkins,
+3. Build Tool - Maven
+4. Containeraization - Docker
+5. Container Orchestratation Tool -  Kubeernetes - GCP
+6. Configuration Management Tool - Ansible
+
+SCM
+=====
+Server - Linux
+Linux - server - Git software
+yum install git -y
+
+git --version
+
+TWO repo
+=======
+1.Local Repo - Git
+2. Remote Repo - Github
+
+Local Repo
+========
+git init
+
+commit you hae done - commit id
+
+git log
+
+
+File creation
+============
+git status
+1. git add filename
+2. git commit -m "filename"
+
+vim index2.html
+
+git diff filename
+
+restore
+git restore index2.html
+
+git restore filename
+
+index.html
+
+restore  - to delete permenetly in Working directory
+
+git revert and commitid
+
+git revert - deleted file will be back again
+
+Git revert
+=============
+filename - shobha
+add
+commit
+
+i have deleted permenetly shobha
+add
+commit it
+
+git revert commitid
+
+
+git ignore
+=========
+.txt
+
+git reset
+=============
+reset --hard - hard will be delete all 3 ares working dir, localrepo, & stagginga area
+reset --soft - will be removed only in local repo
+reset --mixed  - it will be removed/deleted local repo & staging area 
+
+Git stash
+====
+git stash
+
+Branch
+===========
+1.Dev Environment
+2.QA Environment
+3. Pre-prod Env
+4. Prod - Env
+
+dev  - test - github
+
+diff
+-------
+1. Dev Branch/Feature branch - dev
+2. QA - QA Branch
+3.main branch
+4. Hot fix barnch
+5. release barnch
+6. master branch
+7. main 
+
+Merging
+=============
+merging the data b/w two diff branches
+master branch
+dev branch
+1st rule :
+========
+you have to switch the perticular barnch
+
+git merge dev master
+
+Merging conflicts
+
+Git Cherry-pick
+================
+if you to merge the single commit id in perticular 
+
+
+Git Hub Account
+==============
+
+git clone - downloading the files/data from remote repo to local repo
+git pull - downloading the files/data from remote repo to local repo, it will be mergibg from local to working directory
+git fetch - it will fetch the exiting data  (downloading the existing files/data from remote repo to local repo)
+
+git push - sending/ downloading the data/files from local to remote repo
+
+ 
+Git -personal token
+=================
+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
+ 
+
+Tag
+======
+commmit id
+
+
